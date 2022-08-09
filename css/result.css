@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunnu";
+}
+html {
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: "Nunnu";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  background-color: #ffd5a1fa;
+}
+.wrap {
+  margin: 0 auto;
+  width: 480px;
+  height: 100%;
+}
+.title {
+  padding-top: 20px;
+  font-size: 54px;
+  text-align: center;
+  text-shadow: -2px 0px white, 0px 2px white, 2px 0px white, 0px -2px white;
+  cursor: default;
+}
+.suvTitle {
+  font-size: 30px;
+  text-align: center;
+  text-shadow: -2px 0px white, 0px 2px white, 2px 0px white, 0px -2px white;
+  cursor: default;
+}
+.img {
+  text-align: center;
+}
+.resultImg {
+  margin-top: 20px;
+  width: 388px;
+  height: 388px;
+  border: 14px solid white;
+  border-radius: 26px;
+  box-shadow: 0px 6px rgba(0, 0, 0, 0.25);
+}
+.explanation {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 424px;
+  background-color: white;
+  border-radius: 26px;
+}
+.clean {
+  padding-top: 20px;
+  font-size: 54px;
+  text-align: center;
+}
+.cleanBold {
+  color: #fe8600;
+}
+.cleanSub {
+  font-size: 30px;
+}
+.description {
+  list-style-type: none;
+  margin-top: 12px;
+  padding: 0 16px 30px 16px;
+  width: 402px;
+  font-size: 28px;
+  line-height: 46px;
+}
+.friend {
+  margin: 0 auto;
+  margin-top: 28px;
+  width: 423px;
+  height: 252px;
+  background-color: white;
+  border-radius: 40px;
+}
+.friend > span {
+  width: 150px;
+  padding: 16px 28px;
+  float: left;
+  text-align: center;
+}
+.friends {
+  font-size: 24px;
+}
+.friendImg {
+  width: 136px;
+  height: 136px;
+}
+.likeFriend,
+.hateFriend {
+  font-size: 22px;
+}
+.covidTip {
+  width: 423px;
+  margin: 30px auto;
+  padding: 16px 0;
+  background-color: white;
+  border-radius: 38px;
+  text-align: center;
+  font-size: 24px;
+}
+.tip {
+  margin: 15px;
+  text-align: center;
+  font-size: 27px;
+}
+.buttons {
+  padding-bottom: 30px;
+  text-align: center;
+}
+.buttons button {
+  width: 423px;
+  margin: 10px 0;
+  padding: 10px 0;
+  font-size: 30px;
+  border-radius: 38px;
+  background-color: #fff8f0;
+}
+.buttons i {
+  padding-left: 10px;
+  font-size: 26px;
+}
+.buttons button:hover {
+  cursor: pointer;
+}
+.addthis_inline_share_toolbox {
+  margin: 30px 0 10px;
+  transform: scale(1.5);
+}
+.ad-banner {
+  width: 320px;
+  margin: 0 auto;
+}
+.gradation {
+  height: 150px;
+  background: linear-gradient(#ffd5a1fa, #fff1e1);
+}
+.introduce {
+  height: 450px;
+  background-color: #fff1e1;
+}
+.axex {
+  padding-top: 46px;
+  top: 120px;
+  text-align: center;
+  color: #fe8600;
+  font-size: 46px;
+}
+.axex img {
+  margin-top: 16px;
+  width: 90px;
+  height: 90px;
+}
+.teamName {
+  position: relative;
+  top: -20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(119, 0, 255);
+  font-size: 30px;
+}
+.axex > button {
+  width: 300px;
+  padding: 10px 0;
+  font-size: 30px;
+  border-radius: 38px;
+  background-color: white;
+  color: #fe8600;
+  border: #fe8600 solid 3px;
+}
+.axex > button:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+  .wrap {
+    width: 100%;
+  }
+  .title {
+    padding-top: 24px;
+    font-size: 50px;
+  }
+  .suvTitle {
+    width: 328px;
+    margin: 0 auto;
+    font-size: 30px;
+    text-shadow: -2px 0px white, 0px 2px white, 2px 0px white, 0px -2px white;
+  }
+  .img {
+    margin-top: 10px;
+  }
+  .resultImg {
+    width: 300px;
+    height: 300px;
+  }
+  .explanation {
+    width: 328px;
+  }
+  .clean {
+    font-size: 42px;
+  }
+  .cleanSub {
+    font-size: 28px;
+  }
+  .description {
+    width: 328px;
+    padding: 0 10px 20px 12px;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .description li {
+    margin-right: 6px;
+  }
+  .friend {
+    width: 328px;
+    height: 252px;
+  }
+  .friend > span {
+    width: 108px;
+    padding: 10px 28px;
+  }
+  .friends {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .friendImg {
+    width: 120px;
+    height: 120px;
+  }
+  .likeFriend,
+  .hateFriend {
+    font-size: 22px;
+  }
+  .covidTip {
+    width: 328px;
+    margin: 20px auto;
+    font-size: 22px;
+  }
+  .tip {
+    font-size: 26px;
+  }
+  .buttons button {
+    width: 322px;
+    font-size: 30px;
+    border: 3px solid black;
+  }
+  .buttons i {
+    padding-left: 10px;
+    font-size: 26px;
+  }
+  .buttons button:hover {
+    cursor: pointer;
+  }
+  .addthis_inline_share_toolbox {
+    margin-top: 30px;
+    transform: scale(1.1);
+  }
+  .gradation {
+    height: 150px;
+  }
+}
+@media screen and (min-width: 920px) {
+  .content {
+    box-shadow: 0px 10px 10px #a4661f;
+  }
+  .buttons button:hover {
+    cursor: pointer;
+    background-color: #fe8600;
+  }
+  .gradation {
+    box-shadow: 0px 10px 10px #a4661f;
+  }
+  .axex > button:hover {
+    color: white;
+    background-color: #ffcb8f;
+    border: #ffcb8f solid 2px;
+  }
+  .introduce {
+    box-shadow: 0px 10px 10px #a4661f;
+  }
+}
